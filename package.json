@@ -1,0 +1,30 @@
+{
+  "name": "react-life-cycle",
+  "version": "0.0.1",
+  "description": "React Life Cycle Example",
+  "author": "alexandre servian <alexandreservian@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/aleservian/react-life-cycle#readme",
+  "scripts": {
+    "start:dev": "webpack-dev-server",
+    "lint:fix": "eslint 'src/**/*.js' --fix"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.2.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
